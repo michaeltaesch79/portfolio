@@ -315,6 +315,7 @@ header {
 .preview-board     .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#0a1a2e,#104878); }
 .preview-guardian  .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#0a2e1a,#107848); }
 .preview-logique   .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#2e1a0a,#a05010); }
+.preview-sonar     .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#061a2b,#0f6a8b); }
 
 .preview-overlay {
   position: absolute;
