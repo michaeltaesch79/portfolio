@@ -249,7 +249,7 @@
           </div>
         </article>
 
-        <article class="card" onclick="openProtectedProject('https://homeworkcopilot.taeschlabs.com/', 'homework')">
+        <article class="card" onclick="window.open('https://homeworkcopilot.taeschlabs.com/', '_blank')">
           <div class="card-preview preview-homework">
             <span class="card-banner private">Private</span>
             <div class="preview-screenshot">
@@ -271,7 +271,8 @@
             </div>
             <p class="card-desc">
               A private homework support experience built to help students work through assignments
-              with guided AI assistance. Access is currently limited behind a simple password gate.
+              with guided AI assistance. It remains marked private while access stays streamlined for
+              invited use.
             </p>
             <div class="card-tags">
               <span class="tag">Education</span>
@@ -279,9 +280,10 @@
               <span class="tag">Private Access</span>
             </div>
             <a
-              href="#"
+              href="https://homeworkcopilot.taeschlabs.com/"
+              target="_blank"
               class="btn btn-card"
-              onclick="event.preventDefault(); event.stopPropagation(); openProtectedProject('https://homeworkcopilot.taeschlabs.com/', 'homework')"
+              onclick="event.stopPropagation()"
             >Open App -></a>
           </div>
         </article>
@@ -437,34 +439,6 @@
       </a>
     </div>
   </footer>
-
-  <script>
-    function openProtectedProject(url, password) {
-      const projectWindow = window.open('', '_blank');
-      const enteredPassword = window.prompt('Enter the password to open this private project:');
-
-      if (enteredPassword === null) {
-        if (projectWindow) {
-          projectWindow.close();
-        }
-        return;
-      }
-
-      if (enteredPassword.trim() === password) {
-        if (projectWindow) {
-          projectWindow.location.href = url;
-        } else {
-          window.location.href = url;
-        }
-        return;
-      }
-
-      if (projectWindow) {
-        projectWindow.close();
-      }
-      window.alert('Incorrect password.');
-    }
-  </script>
 
 </body>
 </html>
