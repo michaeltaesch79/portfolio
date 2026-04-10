@@ -440,17 +440,28 @@
 
   <script>
     function openProtectedProject(url, password) {
+      const projectWindow = window.open('', '_blank');
       const enteredPassword = window.prompt('Enter the password to open this private project:');
 
       if (enteredPassword === null) {
+        if (projectWindow) {
+          projectWindow.close();
+        }
         return;
       }
 
-      if (enteredPassword === password) {
-        window.open(url, '_blank', 'noopener');
+      if (enteredPassword.trim() === password) {
+        if (projectWindow) {
+          projectWindow.location.href = url;
+        } else {
+          window.location.href = url;
+        }
         return;
       }
 
+      if (projectWindow) {
+        projectWindow.close();
+      }
       window.alert('Incorrect password.');
     }
   </script>
