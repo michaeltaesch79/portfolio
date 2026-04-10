@@ -248,6 +248,43 @@
             >Open App -></a>
           </div>
         </article>
+
+        <article class="card" onclick="openProtectedProject('https://homeworkcopilot.taeschlabs.com/', 'homework')">
+          <div class="card-preview preview-homework">
+            <span class="card-banner private">Private</span>
+            <div class="preview-screenshot">
+              <img
+                src="https://api.microlink.io/?url=https%3A%2F%2Fhomeworkcopilot.taeschlabs.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+                alt="Homework Copilot screenshot"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('no-screenshot')"
+              />
+            </div>
+            <div class="preview-overlay">
+              <span class="preview-icon">&#128218;</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Homework Copilot</h3>
+              <span class="card-status live">Live</span>
+            </div>
+            <p class="card-desc">
+              A private homework support experience built to help students work through assignments
+              with guided AI assistance. Access is currently limited behind a simple password gate.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Education</span>
+              <span class="tag">AI Copilot</span>
+              <span class="tag">Private Access</span>
+            </div>
+            <a
+              href="#"
+              class="btn btn-card"
+              onclick="event.preventDefault(); event.stopPropagation(); openProtectedProject('https://homeworkcopilot.taeschlabs.com/', 'homework')"
+            >Open App -></a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -400,6 +437,23 @@
       </a>
     </div>
   </footer>
+
+  <script>
+    function openProtectedProject(url, password) {
+      const enteredPassword = window.prompt('Enter the password to open this private project:');
+
+      if (enteredPassword === null) {
+        return;
+      }
+
+      if (enteredPassword === password) {
+        window.open(url, '_blank', 'noopener');
+        return;
+      }
+
+      window.alert('Incorrect password.');
+    }
+  </script>
 
 </body>
 </html>

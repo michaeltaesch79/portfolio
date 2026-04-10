@@ -331,6 +331,29 @@ header {
 .preview-guardian  .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#0a2e1a,#107848); }
 .preview-logique   .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#2e1a0a,#a05010); }
 .preview-sonar     .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#061a2b,#0f6a8b); }
+.preview-homework  .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#1a2238,#2d5b9f); }
+
+.card-banner {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 1;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(12,16,28,0.8);
+  border: 1px solid rgba(255,255,255,0.14);
+  backdrop-filter: blur(10px);
+}
+
+.card-banner.private {
+  color: #ffd36d;
+  background: rgba(64,44,6,0.82);
+  border-color: rgba(255,211,109,0.35);
+}
 
 .preview-overlay {
   position: absolute;
