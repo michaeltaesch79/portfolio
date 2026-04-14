@@ -312,6 +312,7 @@ header {
 }
 
 .preview-impostor  .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#1a0a2e,#3d1078); }
+.preview-dungeon   .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#1d1206,#8f4e14); }
 .preview-board     .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#0a1a2e,#104878); }
 .preview-guardian  .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#0a2e1a,#107848); }
 .preview-logique   .preview-screenshot.no-screenshot { background: linear-gradient(135deg,#2e1a0a,#a05010); }

@@ -52,6 +52,43 @@
       <p class="section-sub">Click any card to open the live application.</p>
 
       <div class="cards">
+        <article class="card" onclick="window.open('https://dungeonanddragon.taeschlabs.com/','_blank')">
+          <div class="card-preview preview-dungeon">
+            <div class="preview-screenshot">
+              <img
+                src="https://api.microlink.io/?url=https%3A%2F%2Fdungeonanddragon.taeschlabs.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+                alt="Dungeon and Dragon app screenshot"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('no-screenshot')"
+              />
+            </div>
+            <div class="preview-overlay">
+              <span class="preview-icon">&#128481;</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Dungeon and Dragon</h3>
+              <span class="card-status live">Live</span>
+            </div>
+            <p class="card-desc">
+              A family-friendly guide to playing DnD together, built to help parents and kids
+              jump into adventures at home with less friction and more imagination.
+            </p>
+            <div class="card-tags">
+              <span class="tag">DnD</span>
+              <span class="tag">Family Game Night</span>
+              <span class="tag">Fantasy</span>
+            </div>
+            <a
+              href="https://dungeonanddragon.taeschlabs.com/"
+              target="_blank"
+              class="btn btn-card"
+              onclick="event.stopPropagation()"
+            >Open App -></a>
+          </div>
+        </article>
+
         <article class="card" onclick="window.open('https://imposteur.taeschlabs.com/','_blank')">
           <div class="card-preview preview-impostor">
             <div class="preview-screenshot">
@@ -265,7 +302,7 @@
       </div>
       <div class="about-badge-grid">
         <div class="about-badge">
-          <span class="badge-num">5</span>
+          <span class="badge-num">7</span>
           <span class="badge-label">Apps Shipped</span>
         </div>
         <div class="about-badge">
