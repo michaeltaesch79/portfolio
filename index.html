@@ -4,10 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Michael Taesch - Vibe Coding Projects</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20260408" />
 </head>
 <body>
 
@@ -20,6 +21,11 @@
         <li>
           <a href="https://github.com/michaeltaesch79" target="_blank" class="nav-cta">
             GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/michael-taesch-92101721/" target="_blank" class="nav-cta nav-cta-secondary">
+            LinkedIn
           </a>
         </li>
       </ul>
@@ -149,7 +155,8 @@
             <p class="card-desc">
               A personal board game library manager. Browse your collection, filter by player
               count and play time, read AI-generated rules summaries, and get game
-              recommendations from an AI Copilot.
+              recommendations from an AI Copilot. This is evolving into my own library
+              of board games.
             </p>
             <div class="card-tags">
               <span class="tag">AI Copilot</span>
@@ -203,7 +210,7 @@
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://web-production-df0c9.up.railway.app/','_blank')">
+        <article class="card" onclick="window.open('https://100percentlogique.taeschlabs.com','_blank')">
           <div class="card-preview preview-logique">
             <div class="preview-screenshot">
               <img
@@ -234,7 +241,7 @@
               <span class="tag">Real-time</span>
             </div>
             <a
-              href="https://web-production-df0c9.up.railway.app/"
+              href="https://100percentlogique.taeschlabs.com"
               target="_blank"
               class="btn btn-card"
               onclick="event.stopPropagation()"
@@ -246,10 +253,9 @@
           <div class="card-preview preview-sonar">
             <div class="preview-screenshot">
               <img
-                src="https://api.microlink.io/?url=https%3A%2F%2Fsonar.taeschlabs.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-                alt="Sonar screenshot"
+                src="assets/sonar-fallback.svg"
+                alt="Sonar preview artwork"
                 loading="lazy"
-                onerror="this.parentElement.classList.add('no-screenshot')"
               />
             </div>
             <div class="preview-overlay">
@@ -262,8 +268,9 @@
               <span class="card-status live">Live</span>
             </div>
             <p class="card-desc">
-              A new game in the collection, available to play live on the web.
-              Jump in, explore the experience, and see what surfaces.
+              An underwater game of cat-and-mouse where two teams race to deal
+              two points of damage and win instantly. This version brings the
+              Sonar board game experience to the web.
             </p>
             <div class="card-tags">
               <span class="tag">Game</span>
@@ -278,28 +285,60 @@
             >Open App -></a>
           </div>
         </article>
+
+        <article class="card" onclick="window.location.href='https://homeworkcopilot.taeschlabs.com/'">
+          <div class="card-preview preview-homework">
+            <span class="card-banner private">Private</span>
+            <div class="preview-screenshot">
+              <img
+                src="https://api.microlink.io/?url=https%3A%2F%2Fhomeworkcopilot.taeschlabs.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+                alt="Homework Copilot screenshot"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('no-screenshot')"
+              />
+            </div>
+            <div class="preview-overlay">
+              <span class="preview-icon">&#128218;</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Homework Copilot</h3>
+              <span class="card-status live">Live</span>
+            </div>
+            <p class="card-desc">
+              A private homework support experience built to help students work through assignments
+              with guided AI assistance. It is currently open for easy access while the private
+              labeling stays in place.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Education</span>
+              <span class="tag">AI Copilot</span>
+              <span class="tag">Private Access</span>
+            </div>
+            <a
+              href="https://homeworkcopilot.taeschlabs.com/"
+              class="btn btn-card"
+              onclick="event.stopPropagation()"
+            >Open App -></a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
   <section id="about" class="about">
-    <div class="container about-inner">
-      <div class="about-text">
-        <h2 class="section-title">About</h2>
-        <p>
-          I'm Michael Taesch, and these projects are the result of <strong>Vibe Coding</strong> -
-          an approach where curiosity leads the way and AI tools help bring ideas to life faster
-          than ever before.
+    <div class="container">
+      <div class="about-intro">
+        <span class="section-kicker">About</span>
+        <h2 class="section-title">The team behind the vibes.</h2>
+        <p class="section-sub about-sub">
+          Behind this portfolio is a mix of product instinct, manufacturing discipline, and AI-assisted
+          software building focused on turning playful ideas into polished web experiences people actually
+          want to use.
         </p>
-        <p>
-          Each app started as a personal need or a fun experiment: a game to play with friends,
-          a tool to manage my board game shelf, a learning experience for kids. No lengthy specs,
-          just ideas turned into working software.
-        </p>
-        <a href="https://github.com/michaeltaesch79" target="_blank" class="btn btn-primary">
-          View GitHub Profile
-        </a>
       </div>
+<<<<<<< HEAD
       <div class="about-badge-grid">
         <div class="about-badge">
           <span class="badge-num">7</span>
@@ -312,14 +351,137 @@
         <div class="about-badge">
           <span class="badge-num">&infin;</span>
           <span class="badge-label">Ideas in Progress</span>
+=======
+
+      <div class="about-team-grid">
+        <article class="team-card team-card-featured">
+          <div class="team-avatar team-avatar-michael">
+            <img src="assets/Taesch.jpg" alt="Portrait of Michael Taesch" width="64" height="64" />
+          </div>
+          <h3 class="team-name">Michael Taesch</h3>
+          <p class="team-role">Founder / Product Lead</p>
+          <p class="team-copy">
+            Part builder, part systems thinker, and the one shaping the direction behind every project.
+            Michael brings real-world problem solving, product taste, and just enough stubborn curiosity
+            to keep shipping ideas until they feel right.
+          </p>
+          <div class="team-links">
+            <a href="https://www.linkedin.com/in/michael-taesch-92101721/" target="_blank" class="btn btn-card">
+              View LinkedIn
+            </a>
+            <a href="https://github.com/michaeltaesch79" target="_blank" class="btn btn-card btn-card-muted">
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar team-avatar-ai">
+            <img src="assets/claude.jpg" alt="Portrait representing Claude Sonnet" width="64" height="64" />
+          </div>
+          <h3 class="team-name">Claude Sonnet</h3>
+          <p class="team-role">Architecture / Deep Build Partner</p>
+          <p class="team-copy">
+            The calm systems brain in the room. Claude helps untangle messy requirements, structure
+            ambitious features, and turn rough concepts into foundations that are stable enough to build on.
+          </p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar team-avatar-openai">
+            <img src="assets/GPT.png" alt="Portrait representing ChatGPT" width="64" height="64" />
+          </div>
+          <h3 class="team-name">ChatGPT</h3>
+          <p class="team-role">Frontend / Product Execution Partner</p>
+          <p class="team-copy">
+            Fast with iterations, strong on polish, and always ready for one more pass. ChatGPT helps move
+            from spark to shipped experience across UI, workflow design, content, and launch-ready details.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-vibe-coding" class="essay-section">
+    <div class="container">
+      <div class="essay-layout">
+        <div class="essay-intro">
+          <span class="section-kicker">Why This Exists</span>
+          <h2 class="section-title">The story behind the website and vibe coding.</h2>
+          <p class="section-sub essay-sub">
+            A space for the longer explanation: why this site was built, what you were exploring,
+            and what vibe coding means in your own words.
+          </p>
+>>>>>>> 41312ceabbecfb7af5ce8c5a8afbdd0b02abac5c
         </div>
+
+        <article class="essay-card">
+          <h3 class="essay-heading">Why Taesch Labs?</h3>
+          <div class="essay-body">
+            <p><strong>From "Sure, it's great" to "This is a game changer."</strong></p>
+            <p>
+              For the last two years, I've been evaluating AI models through the lens of industrial
+              manufacturing and product leadership. While the progress was impressive, I hadn't yet
+              felt that true "wow" factor. That changed recently. With the arrival of next-gen models
+              like Claude, GPT-5.4, and Codex, I realized we had moved past simple automation into
+              something entirely new.
+            </p>
+            <p>
+              I decided to stop just evaluating and start building. I decided to embrace Vibe Coding.
+            </p>
+            <p><strong>The Product Manager's Superpower</strong></p>
+            <p>
+              My background isn't in deep-stack development; I am an engineer and product manager by
+              training. My expertise lies in understanding customer feedback, defining requirements,
+              and driving business outcomes.
+            </p>
+            <p>
+              What I discovered is that Vibe Coding is Product Management 101. It feels like having
+              an elite dev team at your disposal 24/7. When you describe a requirement with clarity
+              and set clear expectations, the AI closes the loop in minutes. You move from an idea
+              to a high-fidelity proof of concept so fast it feels like magic. It forces you to ask
+              deeper questions and refine requirements in real-time. For a PM, this isn't just a toy,
+              it's the ultimate prototyping tool.
+            </p>
+            <p><strong>Building Dreams (and Fixing "The Gap")</strong></p>
+            <p>
+              The projects you see here at Taesch Labs started as personal requests from my kids and
+              my wife, a dedicated school social worker. These were the "I wish we had an app for..."
+              ideas that usually stay as dreams because the technical barrier was too high.
+            </p>
+            <p>
+              Yes, you can ship a web app in 30 minutes. But the real joy, the "Vibe," is the hours
+              spent fine-tuning, reacting to feedback, and sculpting the experience without getting
+              lost in the syntax. It is deeply satisfying work.
+            </p>
+            <p><strong>A Reality Check</strong></p>
+            <p>
+              I am fortunate to work at a software company surrounded by world-class engineers. Let's
+              be real: to take a project from a "Vibe" to a professional-grade, scalable product, you
+              still need their talent. I spent many late nights with my friend Rohit, learning the
+              ropes of GitHub and deployment.
+            </p>
+            <p>
+              The gap between "Idea" and "Reality" has never been smaller. Taesch Labs is my journey
+              across that gap. I'd love to hear about yours.
+            </p>
+          </div>
+          <div class="essay-actions">
+            <a href="mailto:michael.taesch@gmail.com" class="btn btn-card">
+              Contact Me
+            </a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container footer-inner">
-      <span class="footer-logo">MT</span>
+      <div class="footer-meta">
+        <span class="footer-logo">MT</span>
+        <a href="mailto:michael.taesch@gmail.com" class="footer-email">michael.taesch@gmail.com</a>
+      </div>
       <p class="footer-copy">&copy; 2025 Michael Taesch · Built with Vibe Coding</p>
       <a href="https://github.com/michaeltaesch79" target="_blank" class="footer-gh">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
