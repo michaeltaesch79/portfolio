@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">The Guardian's Journey cover</title>
+  <desc id="desc">Whimsical 3D island cover art for The Guardian's Journey project.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081a31" />
+      <stop offset="58%" stop-color="#12577f" />
+      <stop offset="100%" stop-color="#4cb57b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)" />
+  <circle cx="1000" cy="134" r="118" fill="#d8ffeb" opacity="0.12" />
+  <g fill="#ffffff" opacity="0.24">
+    <circle cx="852" cy="130" r="4" />
+    <circle cx="926" cy="196" r="5" />
+    <circle cx="1030" cy="98" r="4" />
+    <circle cx="1112" cy="186" r="6" />
+  </g>
+  <rect x="72" y="74" width="532" height="572" rx="30" fill="rgba(6, 19, 33, 0.72)" stroke="rgba(216, 255, 235, 0.2)" />
+  <text x="118" y="188" fill="#baf4d0" font-size="34" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" letter-spacing="8">EMOTION QUEST</text>
+  <text x="118" y="278" fill="#f4fff8" font-size="78" font-weight="700" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">The Guardian's</text>
+  <text x="118" y="356" fill="#f4fff8" font-size="78" font-weight="700" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Journey</text>
+  <text x="118" y="432" fill="#d5ffdf" font-size="28" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Explore islands, practice calm tools, and help feeling-spirits.</text>
+  <g transform="translate(118 510)">
+    <rect x="0" y="0" width="132" height="46" rx="23" fill="#5ed39b" opacity="0.16" />
+    <rect x="150" y="0" width="152" height="46" rx="23" fill="#5ed39b" opacity="0.12" />
+    <rect x="320" y="0" width="182" height="46" rx="23" fill="#5ed39b" opacity="0.12" />
+    <text x="24" y="30" fill="#f1fff5" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">3D Game</text>
+    <text x="176" y="30" fill="#f1fff5" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Learning</text>
+    <text x="346" y="30" fill="#f1fff5" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Wellness Tools</text>
+  </g>
+  <g transform="translate(700 126)">
+    <ellipse cx="184" cy="426" rx="248" ry="70" fill="#0b2f2d" opacity="0.48" />
+    <circle cx="110" cy="298" r="86" fill="#30b6db" />
+    <circle cx="276" cy="262" r="112" fill="#4fc778" />
+    <circle cx="196" cy="136" r="70" fill="#8f75ff" />
+    <path d="M110 298c39 22 97 8 135-36 20 48 72 82 131 76" fill="none" stroke="#f7f5d8" stroke-width="12" stroke-linecap="round" />
+    <circle cx="112" cy="296" r="26" fill="#fff8cf" />
+    <circle cx="276" cy="260" r="30" fill="#fff8cf" />
+    <circle cx="196" cy="134" r="22" fill="#fff8cf" />
+    <path d="M196 134l18-42 18 42 44 6-32 28 9 42-39-22-39 22 9-42-32-28z" fill="#fff1a5" opacity="0.92" />
+  </g>
+</svg>

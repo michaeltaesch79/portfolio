@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Dungeon and Dragon cover</title>
+  <desc id="desc">Fantasy themed cover art for the Dungeon and Dragon project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1125" />
+      <stop offset="55%" stop-color="#4e1f17" />
+      <stop offset="100%" stop-color="#d9782d" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(17, 12, 21, 0.9)" />
+      <stop offset="100%" stop-color="rgba(60, 28, 19, 0.72)" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)" />
+  <circle cx="965" cy="155" r="92" fill="#ffd27a" opacity="0.18" />
+  <path d="M0 560L150 480L260 520L430 430L540 490L700 400L880 470L1030 390L1200 470V720H0Z" fill="#1e0e12" opacity="0.78" />
+  <path d="M0 615L130 560L250 610L430 515L520 560L690 500L840 555L1010 495L1200 565V720H0Z" fill="#12080d" opacity="0.96" />
+  <path d="M772 184c61 6 114 44 144 100 16 30 24 66 13 90-14 31-58 33-82 15-29-23-47-66-83-74-39-8-80 29-115 12-18-9-25-30-20-48 9-37 47-66 82-82 19-9 40-15 61-13Z" fill="#16090c" opacity="0.4" />
+  <path d="M760 232c33-29 83-40 124-19 31 16 54 48 82 70 22 18 53 29 61 57 10 34-21 73-56 80-32 7-63-10-88-29-18-13-34-31-56-38-30-10-64 0-94-10-24-8-47-30-48-56-2-24 14-43 30-55 15-10 30-18 45-31Z" fill="#3f120f" opacity="0.66" />
+  <path d="M850 228c10 13 18 29 18 46 0 15-6 28-14 40 21 1 44 8 57 24 11 15 12 38 0 53-13 16-37 20-56 13-17-6-28-22-42-32-9-7-22-12-33-8-16 5-24 24-41 26-14 2-28-9-31-22-5-22 14-41 31-51 13-7 28-12 39-22 18-17 20-47 44-59 8-4 19-2 28-8Z" fill="#f5b141" opacity="0.88" />
+  <rect x="70" y="68" width="520" height="584" rx="28" fill="url(#card)" stroke="rgba(255, 227, 183, 0.24)" />
+  <text x="118" y="192" fill="#ffd7ab" font-size="34" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" letter-spacing="7">FAMILY QUEST</text>
+  <text x="118" y="292" fill="#fff4db" font-size="82" font-weight="700" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Dungeon</text>
+  <text x="118" y="372" fill="#fff4db" font-size="82" font-weight="700" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">and Dragon</text>
+  <text x="118" y="444" fill="#ffd7ab" font-size="28" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">A welcoming DnD starter for parents and kids.</text>
+  <g transform="translate(118 510)">
+    <rect x="0" y="0" width="126" height="46" rx="23" fill="#f5b141" opacity="0.18" />
+    <rect x="144" y="0" width="168" height="46" rx="23" fill="#f5b141" opacity="0.14" />
+    <rect x="330" y="0" width="122" height="46" rx="23" fill="#f5b141" opacity="0.12" />
+    <text x="26" y="30" fill="#fff0cf" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">DnD</text>
+    <text x="170" y="30" fill="#fff0cf" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Family Play</text>
+    <text x="356" y="30" fill="#fff0cf" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Fantasy</text>
+  </g>
+</svg>

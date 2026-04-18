@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Impostor cover</title>
+  <desc id="desc">Neon party-game cover art for the Impostor project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140c22" />
+      <stop offset="50%" stop-color="#32174d" />
+      <stop offset="100%" stop-color="#7a1ea1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)" />
+  <circle cx="180" cy="560" r="210" fill="#1d102d" opacity="0.45" />
+  <circle cx="1030" cy="120" r="130" fill="#ff6edb" opacity="0.13" />
+  <rect x="84" y="76" width="510" height="568" rx="30" fill="rgba(13, 10, 23, 0.72)" stroke="rgba(255, 193, 252, 0.2)" />
+  <text x="130" y="194" fill="#f7c4ff" font-size="34" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" letter-spacing="8">SECRET WORD</text>
+  <text x="130" y="300" fill="#fff2ff" font-size="92" font-weight="700" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Impostor</text>
+  <text x="130" y="382" fill="#f2b7ff" font-size="28" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Read the room, follow the clues, catch the bluff.</text>
+  <g transform="translate(130 474)">
+    <rect x="0" y="0" width="152" height="46" rx="23" fill="#ff6edb" opacity="0.16" />
+    <rect x="170" y="0" width="152" height="46" rx="23" fill="#ff6edb" opacity="0.12" />
+    <rect x="340" y="0" width="124" height="46" rx="23" fill="#ff6edb" opacity="0.12" />
+    <text x="24" y="30" fill="#ffe8ff" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Party Game</text>
+    <text x="196" y="30" fill="#ffe8ff" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Multiplayer</text>
+    <text x="368" y="30" fill="#ffe8ff" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">Live</text>
+  </g>
+  <g transform="translate(760 118)">
+    <circle cx="176" cy="168" r="152" fill="rgba(255, 110, 219, 0.12)" stroke="rgba(255, 196, 252, 0.18)" stroke-width="3" />
+    <circle cx="176" cy="168" r="108" fill="rgba(18, 10, 33, 0.55)" stroke="#ff8be4" stroke-width="6" />
+    <ellipse cx="176" cy="168" rx="82" ry="52" fill="#0f081b" stroke="#ffd2f7" stroke-width="5" />
+    <circle cx="176" cy="168" r="22" fill="#ff6edb" />
+    <path d="M83 296c39-24 73-33 103-33 35 0 73 14 112 43" fill="none" stroke="#ff9deb" stroke-width="10" stroke-linecap="round" />
+    <circle cx="78" cy="92" r="16" fill="#ff6edb" />
+    <circle cx="278" cy="68" r="13" fill="#ffd2f7" />
+    <circle cx="308" cy="256" r="18" fill="#ff6edb" opacity="0.9" />
+  </g>
+</svg>
