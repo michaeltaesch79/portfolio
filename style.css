@@ -291,6 +291,13 @@ header {
   box-shadow: 0 16px 48px rgba(0,0,0,0.4);
 }
 
+.card:focus-visible {
+  outline: 3px solid rgba(111,255,216,0.8);
+  outline-offset: 4px;
+  border-color: rgba(111,255,216,0.45);
+  box-shadow: 0 0 0 4px rgba(111,255,216,0.15), 0 16px 48px rgba(0,0,0,0.4);
+}
+
 /* ── card preview area ── */
 .card-preview {
   position: relative;

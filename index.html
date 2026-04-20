@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=20260408" />
+  <link rel="stylesheet" href="style.css?v=20260420" />
 </head>
 <body>
 
@@ -19,7 +19,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/michael-taesch-92101721/" target="_blank" class="nav-cta nav-cta-secondary">
+          <a href="https://www.linkedin.com/in/michael-taesch-92101721/" target="_blank" rel="noopener noreferrer" class="nav-cta nav-cta-secondary">
             LinkedIn
           </a>
         </li>
@@ -53,7 +53,7 @@
       <p class="section-sub">Click any card to open the live application.</p>
 
       <div class="cards">
-        <article class="card" onclick="window.open('https://dungeonanddragon.taeschlabs.com/','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://dungeonanddragon.taeschlabs.com/')" onkeydown="handleProjectCardKeydown(event, 'https://dungeonanddragon.taeschlabs.com/')">
           <div class="card-preview preview-dungeon">
             <div class="preview-screenshot">
               <img
@@ -85,13 +85,14 @@
             <a
               href="https://dungeonanddragon.taeschlabs.com/"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://imposteur.taeschlabs.com/','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://imposteur.taeschlabs.com/')" onkeydown="handleProjectCardKeydown(event, 'https://imposteur.taeschlabs.com/')">
           <div class="card-preview preview-impostor">
             <div class="preview-screenshot">
               <img
@@ -103,7 +104,7 @@
               />
             </div>
             <div class="preview-overlay">
-              <span class="preview-icon">🕵️</span>
+              <span class="preview-icon">&#128373;&#65039;</span>
             </div>
           </div>
           <div class="card-body">
@@ -124,13 +125,14 @@
             <a
               href="https://imposteur.taeschlabs.com/"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://digitalboardgame.taeschlabs.com/','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://digitalboardgame.taeschlabs.com/')" onkeydown="handleProjectCardKeydown(event, 'https://digitalboardgame.taeschlabs.com/')">
           <div class="card-preview preview-board">
             <div class="preview-screenshot">
               <img
@@ -142,7 +144,7 @@
               />
             </div>
             <div class="preview-overlay">
-              <span class="preview-icon">🎲</span>
+              <span class="preview-icon">&#127922;</span>
             </div>
           </div>
           <div class="card-body">
@@ -164,13 +166,14 @@
             <a
               href="https://digitalboardgame.taeschlabs.com/"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://familycalendar.taeschlabs.com/','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://familycalendar.taeschlabs.com/')" onkeydown="handleProjectCardKeydown(event, 'https://familycalendar.taeschlabs.com/')">
           <div class="card-preview preview-calendar">
             <div class="preview-screenshot">
               <img
@@ -182,7 +185,7 @@
               />
             </div>
             <div class="preview-overlay">
-              <span class="preview-icon">📅</span>
+              <span class="preview-icon">&#128197;</span>
             </div>
           </div>
           <div class="card-body">
@@ -202,13 +205,14 @@
             <a
               href="https://familycalendar.taeschlabs.com/"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://michaeltaesch79.github.io/guardian-journey/','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://michaeltaesch79.github.io/guardian-journey/')" onkeydown="handleProjectCardKeydown(event, 'https://michaeltaesch79.github.io/guardian-journey/')">
           <div class="card-preview preview-guardian">
             <div class="preview-screenshot">
               <img
@@ -220,7 +224,7 @@
               />
             </div>
             <div class="preview-overlay">
-              <span class="preview-icon">🔮</span>
+              <span class="preview-icon">&#128302;</span>
             </div>
           </div>
           <div class="card-body">
@@ -241,13 +245,14 @@
             <a
               href="https://michaeltaesch79.github.io/guardian-journey/"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://100percentlogique.taeschlabs.com','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://100percentlogique.taeschlabs.com')" onkeydown="handleProjectCardKeydown(event, 'https://100percentlogique.taeschlabs.com')">
           <div class="card-preview preview-logique">
             <div class="preview-screenshot">
               <img
@@ -259,7 +264,7 @@
               />
             </div>
             <div class="preview-overlay">
-              <span class="preview-icon">🧠</span>
+              <span class="preview-icon">&#129504;</span>
             </div>
           </div>
           <div class="card-body">
@@ -268,7 +273,7 @@
               <span class="card-status live">Live</span>
             </div>
             <p class="card-desc">
-              A multiplayers trivia game where a host presents logic-based questions to remote
+              A multiplayer trivia game where a host presents logic-based questions to remote
               players joining via QR code. Features real-time score tracking, bonus mini-games
               (emoji math, mirror words, spot-the-difference), and a confetti podium finale.
             </p>
@@ -281,13 +286,14 @@
             <a
               href="https://100percentlogique.taeschlabs.com"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.open('https://sonar.taeschlabs.com/','_blank')">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://sonar.taeschlabs.com/')" onkeydown="handleProjectCardKeydown(event, 'https://sonar.taeschlabs.com/')">
           <div class="card-preview preview-sonar">
             <div class="preview-screenshot">
               <img
@@ -320,13 +326,14 @@
             <a
               href="https://sonar.taeschlabs.com/"
               target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
 
-        <article class="card" onclick="window.location.href='https://homeworkcopilot.taeschlabs.com/'">
+        <article class="card" role="link" tabindex="0" onclick="openProjectCard('https://homeworkcopilot.taeschlabs.com/')" onkeydown="handleProjectCardKeydown(event, 'https://homeworkcopilot.taeschlabs.com/')">
           <div class="card-preview preview-homework">
             <span class="card-banner private">Private</span>
             <div class="preview-screenshot">
@@ -359,9 +366,11 @@
             </div>
             <a
               href="https://homeworkcopilot.taeschlabs.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               class="btn btn-card"
               onclick="event.stopPropagation()"
-            >Open App -></a>
+            >Open App -&gt;</a>
           </div>
         </article>
       </div>
@@ -392,7 +401,7 @@
             to keep shipping ideas until they feel right.
           </p>
           <div class="team-links">
-            <a href="https://www.linkedin.com/in/michael-taesch-92101721/" target="_blank" class="btn btn-card">
+            <a href="https://www.linkedin.com/in/michael-taesch-92101721/" target="_blank" rel="noopener noreferrer" class="btn btn-card">
               View LinkedIn
             </a>
           </div>
@@ -504,11 +513,22 @@
         <span class="footer-logo">MT</span>
         <a href="mailto:michael.taesch@gmail.com" class="footer-email">michael.taesch@gmail.com</a>
       </div>
-      <p class="footer-copy">&copy; 2025 Michael Taesch · Built with Vibe Coding</p>
+      <p class="footer-copy">&copy; 2025 Michael Taesch &middot; Built with Vibe Coding</p>
     </div>
   </footer>
 
   <script>
+    function openProjectCard(url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    function handleProjectCardKeydown(event, url) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openProjectCard(url);
+      }
+    }
+
     function handleProjectCardImageError(img) {
       const fallbackSrc = img.dataset.fallbackSrc;
 
